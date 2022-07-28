@@ -33,7 +33,7 @@ const showGreeting = () =>{
         text = "Good Morning";
     }
     else if (hours >= 12 && hours < 18){
-        text = "Good Evening";
+        text = "Good Afternoon";
     }
     else if (hours >= 18){
         text = "Good Evening";
