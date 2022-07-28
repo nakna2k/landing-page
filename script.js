@@ -25,22 +25,6 @@ btn.addEventListener("click", () => {
 
 
 
-const showGreeting = () =>{
-    const title = document.querySelector("#Greeting");
-    const hours = new Date().getHours();
-    let text = null;
-    if(hours >= 6 && hours < 12){
-        text = "Good Morning";
-    }
-    else if (hours >= 12 && hours < 18){
-        text = "Good Afternoon";
-    }
-    else if (hours >= 18){
-        text = "Good Evening";
-    }
-    title.textContent = text;
-    // title.textContent = "Good Morning"
-}
 
 window.addEventListener("DOMContentLoaded", () => {
     menuToggler();
